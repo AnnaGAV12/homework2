@@ -14,6 +14,5 @@ int namber = int.Parse(Console.ReadLine());
 
 // Второй вариант решения
 if (namber > 1 && namber < 6) Console.WriteLine($"{namber} рабочий день недели");
-if (namber == 6) Console.WriteLine($"{namber} день недели выходной");
-if (namber == 7) Console.WriteLine($"{namber} день недели выходной");
+if (namber == 6 || namber == 7) Console.WriteLine($"{namber} день недели выходной");
 else if (namber > 7) Console.WriteLine($"{namber} не обозначает день недели");
